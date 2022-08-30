@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uso de iframes</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        iframe#tela {
+            width: 95vw;
+            height: 400px;
+            border: 2px solid black;
+        }
+    </style>
+</head>
+<body>
+    <h1>Faça uma escolha</h1>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Unde esse soluta ipsam ut quisquam incidunt deleniti, aliquid fuga nesciunt quibusdam quaerat sint praesentium pariatur officiis debitis ullam, aspernatur, labore velit.</p>
+
+    <ul>
+        <li><a href="paginas-extras/pag001.html" target="frame">Primeira página</a></li>
+        <li><a href="paginas-extras/pag002.html" target="frame">Segunda página</a></li>
+        <li><a href="paginas-extras/pag003.html" target="frame">Terceira página</a></li>
+    </ul>
+
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Provident blanditiis architecto quis pariatur? Aspernatur mollitia, a iure molestiae tempore blanditiis temporibus ab ex omnis quae, nobis iusto facere unde saepe. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vel tenetur, aliquam architecto mollitia in reiciendis quos excepturi optio suscipit a officiis quaerat unde ad sed accusamus nulla at eius necessitatibus?</p>
+
+    <iframe id="tela" name="frame" srcdoc="<h1>Escolha uma das opções acima</h1><p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Provident blanditiis architecto quis pariatur? Aspernatur mollitia, a iure molestiae tempore blanditiis temporibus ab ex omnis quae, nobis iusto facere unde saepe.</p><img src='imagens/vscode-icon.png'>">
+        <p>Infelizmente seu navegador não é compatível com isso.</p>
+    </iframe>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, soluta excepturi itaque veniam, quisquam quam nobis nisi aliquam eaque aspernatur harum cumque iure vel! Eligendi minima sapiente perferendis ex omnis? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate, quasi alias rerum numquam perspiciatis atque harum neque magni, a sint accusantium laboriosam repudiandae sequi in possimus ex et, modi nihil.</p>
+</body>
+</html>
